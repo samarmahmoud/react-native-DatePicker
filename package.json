@@ -1,0 +1,42 @@
+{
+  "name": "react-native-DatePicker",
+  "version": "1.0.0",
+  "description": "its a custonmer datePicker for years and months only",
+  "main": "src/index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "years-months",
+    "picker",
+    "react-native",
+    "DatePicker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samarmahmoud/react-native-DatePicker.git"
+  },
+  "author": "samar.mahmoud <samar.m4395@gmail.com>",
+  "license": "MIT",
+  "dependencies":{
+    "prop-types": "^15.7.2",
+    "moment": "^2.27.0",
+    "react-native-wheel-picker-android": "^2.0.6",
+    "styled-components": "^5.1.1"
+  },
+  "peerDependencies": {
+    "react": "16.11.0",
+    "react-native": "0.62.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/runtime": "7.9.6",
+    "@types/react": "^16.9.34",
+    "@types/react-native": "^0.62.5",
+    "@types/styled-components": "^5.1.0",
+    "@types/yup": "^0.29.4",
+    "babel-jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.58.0",
+    "typescript": "^3.8.3"
+  }
+}
